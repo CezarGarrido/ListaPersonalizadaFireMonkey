@@ -1,0 +1,28 @@
+object Frame6: TFrame6
+  Align = Client
+  Size.Width = 292.000000000000000000
+  Size.Height = 50.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Contents
+    Size.Width = 292.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object SpeedButton1: TSpeedButton
+      Align = Left
+      Size.Width = 80.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'actiontoolbutton'
+      Text = 'SpeedButton1'
+    end
+    object Label1: TLabel
+      Align = Contents
+      Size.Width = 292.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Cezar garrido'
+    end
+  end
+end
